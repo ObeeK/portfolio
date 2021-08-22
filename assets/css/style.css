@@ -187,3 +187,60 @@ header nav ul li a:hover {
 .boxes a:visited {
     color: inherit;
 }
+
+@media screen and (max-width: 768px) {
+    header h1 {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+    }
+
+    header nav {
+        justify-content: space-evenly;
+        flex-basis: 100%;
+    }
+
+    header nav ul {
+        justify-content: space-evenly;
+    }
+
+    .info-left {
+        justify-content: center;
+        text-align: center;
+        border-right: none;
+        flex-basis: 100%;
+        margin: 0 auto;
+    }
+
+    .info-left h2 {
+        border-bottom: 3px solid var(--primary-color);
+    }
+
+    .boxes {
+        justify-content: center;
+        margin: 25px auto;
+        padding-bottom: 0;
+        max-width: 90%;
+    
+    }
+
+    .content {
+        padding-bottom: 0;
+        margin: 0 auto;
+    }
+
+    .info-right p {
+        margin: 25px 0 25px 0;
+    }
+
+    .small-box {
+        margin: 10px 5px;
+    }
+
+
+    header nav ul li a {
+        font-size: 3vw;
+    }
+}
