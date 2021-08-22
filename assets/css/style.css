@@ -20,11 +20,14 @@ body {
     height: 250px;
     background-size: cover;
     width: 100%;
-    justify-content: flex-end;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-wrap: nowrap;
     align-items: flex-end;
 }
 
+.banner img {
+    margin-left: 40px;
+}
 
 header {
     padding: 20px 15px;
@@ -97,8 +100,6 @@ header nav ul li a:hover {
     flex-basis: 25%;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
-/* Design choice to have the box touch the right side - 
-   to have it floating in the banner just remove the flex properties and add margin-right. */
     }  
 
 .content {
@@ -208,6 +209,10 @@ header nav ul li a:hover {
 
     header nav ul {
         justify-content: space-evenly;
+    }
+
+    .banner img {
+        margin-left: 5px;
     }
 
     .info-left {
