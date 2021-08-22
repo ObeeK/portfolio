@@ -178,6 +178,10 @@ header nav ul li a:hover {
     border-bottom: 2px solid var(--primary-color);
 }
 
+.uno p {
+    font-size: 20px;
+}
+
 
 .contact-info a:visited {
     color: inherit;
@@ -254,8 +258,26 @@ header nav ul li a:hover {
         align-items: center;
     }
 
+
     .worktitle p {
         font-size: 0px;
     }
    
+    .worktitle2 p {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+
+    .info-right p {
+        margin: 10px 15px;
+    }
+
+    .uno {
+        margin: 15px 0;
+    }
+    .uno p {
+        font-size: 4vw;
+        margin: 0 auto;
+    }
 }
