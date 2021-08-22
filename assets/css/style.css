@@ -261,6 +261,7 @@ header nav ul li a:hover {
         max-height: 50%;
         padding: 5px;
         align-items: center;
+        color: var(--primary-color);
     }
 
 
@@ -271,6 +272,7 @@ header nav ul li a:hover {
     .worktitle2 p {
         font-size: 15px;
         font-weight: bold;
+        color: inherit;
     }
 
 
